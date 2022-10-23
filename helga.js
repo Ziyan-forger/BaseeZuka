@@ -105,7 +105,7 @@ const autosticker = JSON.parse(fs.readFileSync('./database/autosticker.json'))
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-autorespon = false
+autorespon = true
 playmusic = false
 antidelete = false
 menusimpel = false
@@ -1122,8 +1122,8 @@ Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan ZukaChan-
 😖🙏
 
-For GitHub : https://github.com/HelgaIlham
-YouTube Helga : https://youtube.com/c/HelgaZexs妥
+For GitHub : https://github.com/Ziyan-forger
+YouTube : https://youtube.com/c/Zynn-Xd妥
 `
 sendButLocation(from, `${menu}`, "*ZukaChan*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
